@@ -4,7 +4,7 @@
   ![](http://upyun.luckly-mjw.cn/Assets/finder-shell/cdto.gif)
 
 【code】一键打开 vscode，并加载当前目录
-  ![](http://upyun.luckly-mjw.cn/Assets/finder-shell/vscode.gif)
+  ![](http://upyun.luckly-mjw.cn/Assets/finder-shell/vscode.gif?v)
 
 【serve】一键启动静态服务器，并加载当前目录
   ![](http://upyun.luckly-mjw.cn/Assets/finder-shell/serve.gif)
