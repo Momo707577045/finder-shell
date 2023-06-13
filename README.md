@@ -78,7 +78,6 @@ fi
 ```
 
 [【code.sh】](https://github.com/Momo707577045/finder-shell/blob/main/code.sh)一键打开 vscode，并加载当前目录
-- 需首先安装 vscode code 脚本
 ```
 #!/bin/bash
 
@@ -91,8 +90,8 @@ thePath=${thePath//\'/}
 # 输出获取到的目录路径
 echo $thePath
 
-# 使用 vs 快捷打开当前文件目录
-code "$thePath"
+# 启动 vs，并加载所在目录
+open -a "Visual Studio Code" "$thePath"
 ```
 
 [【ecs.sh】](https://github.com/Momo707577045/finder-shell/blob/main/ecs.sh)一键登录服务器

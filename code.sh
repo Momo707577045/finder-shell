@@ -9,5 +9,6 @@ thePath=${thePath//\'/}
 # 输出获取到的目录路径
 echo $thePath
 
-# 使用 vs 快捷打开当前文件目录
-code "$thePath"
+# 启动 vs，并加载所在目录
+open -a "Visual Studio Code" "$thePath"
+
