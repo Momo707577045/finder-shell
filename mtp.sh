@@ -9,6 +9,8 @@ thePath=${thePath//\'/}
 # 切换到目录
 cd "$thePath"
 
+chmod -R +w "$thePath"
+
 # 使用 anywhere 打开当前目录的 server
 mtp
 
